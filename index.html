@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>My app</title>
+    <link type="text/css" rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="data-entry">
+      <form onsubmit="handleSubmit">
+        <div>
+          <label for="name">Name</label>
+          <input type="text" id="name" />
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" />
+        </div>
+        <div>
+          <label for="mobile">Mobile</label>
+          <input type="number" id="mobile" />
+        </div>
+
+        <button type="submit" disabled>Add User</button>
+      </form>
+      <section class="error"><p>This is the error message.</p></section>
+    </div>
+    <hr />
+    <div class="data-display">
+      <table>
+        <thead>
+          <tr>
+            <td id="table-name">Name</td>
+            <td id="table-email">Email</td>
+            <td id="table-mobile">Mobile</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Bart Simpson</td>
+            <td>bart@simpsons.com</td>
+            <td>1234567890</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <script type="application/javascript" src="./script.js"></script>
+  </body>
+</html>

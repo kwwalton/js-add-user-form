@@ -1,0 +1,14 @@
+{
+  "name": "form-validation",
+  "version": "1.0.0",
+  "description": "Similar to Travelers question 1, validating a form with JavaScript and adding users to an array and updating a sortable by name table",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Ken Walton",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
